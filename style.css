@@ -1,7 +1,6 @@
 h1{
  font-size: 70px;
  font-family: 'Lato', sans-serif;
- color: rgb(100, 97, 97);
  text-shadow: grey 3px 3px 6px;
 }
 h2{
@@ -9,25 +8,37 @@ h2{
  font-family: 'Lato', sans-serif;
  color: rgb(100, 97, 97);
  text-align: center;
+ text-shadow:grey 3px 3px 6px;
+}
+h3{
+ font-size: 50px;
+ text-align: center;
+ font-family: 'Lato', sans-serif;
 }
 .content{
  width: 50%;
  padding-left: 70px;
  padding-right: 20px;
  padding-top: 100px;
- padding-bottom: 50px;
+ padding-bottom: 20px;
 }
 .content-two{
  width: 50%;
  padding-left: 200px;
- padding-right: 20px;
- padding-top: 50px;
+ padding-right: 150px;
+ padding-top: 30px;
+ padding-bottom: 50px;
 }
 .heading{
  color: rgb(30, 30, 192);
 }
 .red-color{
  color: red;
+}
+.health{
+ text-align: center;
+ color: grey;
+ font-size: 30px;
 }
 .flexible-continer{
  display: flex;
@@ -52,13 +63,14 @@ div img{
  padding-top: 55px;
 width: 400px;
 }
-.food-image{
+.image{
  object-fit: fill;
  padding-left: 70px;
  padding-top: 55px;
+ padding-bottom: 40px;
 width: 400px;
 }
-.p{
+p{
  font-size: 20px;
  font-weight: 500;
 }
@@ -94,6 +106,7 @@ margin-right: 5%;
  text-align: center; 
  padding-left: 10px;
  padding-right: 10px;
+ padding-bottom: 20px;
  border-radius: 10px;
  background-color: lemonchiffon;
 }
@@ -101,4 +114,8 @@ margin-right: 5%;
  width: 150px;
  padding-left: 5px;
  padding-right: 5px;
+}
+.end{
+ padding-top: 30px;
+ padding-bottom: 10px;
 }
