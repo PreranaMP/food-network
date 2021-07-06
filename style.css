@@ -10,16 +10,34 @@ h1{
  padding-left: 70px;
  padding-right: 20px;
  padding-top: 100px;
+ padding-bottom: 50px;
+}
+.content-two{
+ font-family: 'Lato', sans-serif;
+ width: 50%;
+ padding-left: 200px;
+ padding-right: 20px;
+ padding-top: 50px;
 }
 .heading{
  color: rgb(30, 30, 192);
 }
-section{
+.red-color{
+ color: red;
+}
+.sectionone{
  display: flex;
  background-image: url(food-net-images/Frame\ 56.jpg);
  background-repeat: no-repeat;
  background-size: cover;
 margin: 0%;
+}
+.sectiontwo{
+ display: flex;
+ background-image: url(food-net-images/Frame\ 58.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 0%;
 }
 div img{
  object-fit: fill;
@@ -27,7 +45,18 @@ div img{
  padding-top: 55px;
 width: 400px;
 }
-p{
+.food-image{
+ object-fit: fill;
+ padding-left: 70px;
+ padding-top: 55px;
+width: 400px;
+}
+.first{
+ font-size: 20px;
+ color: rgb(100, 97, 97);
+ font-weight: 500;
+}
+.second{
  font-size: 20px;
  color: rgb(100, 97, 97);
  font-weight: 500;
@@ -44,4 +73,17 @@ p{
  padding: 5px 10px;
  box-shadow: grey 4px 4px 10px;
  background-image: linear-gradient(skyblue, blue);
+}
+.resume{
+ text-decoration: none;
+ display: inline-block;
+ text-align: center;
+ background-color: blue;
+ padding: 5px 10px;
+ color: white;
+ border-radius: 5px;
+ font-family: 'Lato', sans-serif;
+ padding: 5px 10px;
+ box-shadow: grey 4px 4px 10px;
+ background-image: linear-gradient(pink, red);
 }
